@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Music Mixer</title>
+	<link rel="stylesheet" href="https://use.typekit.net/tpr3obx.css">
+	<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+
+	<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![end if] -->
+</head>
+<body>
+	<div id="mainContainer">
+		<header>
+			<div id="mainNav">
+				<p class="hidden">Welcome to ZOOMBOX!</p>
+			</div>
+			<div id="header">
+				<img src="images/ZOOMBOX.svg" alt="ZOOMBOX logo/tile banner">
+			</div>
+			<h1 class="hidden">WELCOME TO THE ZOOMBOX</h1>
+			<h2>Grab an icon on the left and plunk it in to mix some beats!</h2>
+			<h3>Get jiggy wit it</h3>
+			<img src="images/neonHR.svg" alt="hr neon">
+		</header>
+<!-------------------------->
+<div id="body">
+		<section id="drag-zone"><!-- game board -->
+			<h3 class="hidden">The Drag Zones</h3>
+				<div class="icon-house"> <!-- puzzle-pieces-->
+					<img src="images/disk.svg" alt="disk" class="icons" data-index="0" draggable="true">
+					<img src="images/casset.svg" alt="cassette" class="icons" data-index="1" draggable="true">
+					<img src="images/rockon.svg" alt="rock-on" data-index="2" class="icons" draggable="true">
+					<img src="images/headphones.svg" alt="headphones" class="icons" data-index="3" draggable="true">
+					<img src="images/mic.svg" alt="mic" class="icons" data-index="4" draggable="true">
+					<img src="images/guitar.svg" alt="guitar" data-index="5"  class="icons" draggable="true">
+					<img src="images/drum.svg" alt="drum" class="icons" data-index="6" draggable="true">
+					<img src="images/player.svg" alt="turntable" class="icons" data-index="7" draggable="true">
+					<img src="images/soundwave.svg" alt="sound-wave" data-index="8"  class="icons" draggable="true">
+				</div>
+<!-------------------------->
+		</section>
+		<section class="drop-con">
+			<h3 class="hidden">The Drop Zones</h3>
+			<div id="drop-area">
+				<div class="drop-zone"></div> <!-- puzzle-pieces -->
+				<div class="drop-zone"></div>
+				<div class="drop-zone"></div>
+				<div class="drop-zone"></div>
+		</section>
+</div>
+<!-------------------------->
+		<footer>
+			<div id="footer">
+				<h2>ZOOMBOX 2020 Creators: Jordan Andrigo & Tessa Cooper</h2>
+			</div>
+		</footer>
+	</div><!-- end main container -->
+<script src="js/main.js"></script>
+</body>
+</html>
